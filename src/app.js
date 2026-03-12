@@ -25,15 +25,11 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Ruta raíz
 app.get("/", (req, res) => {
-    res.json({
-        message: "API del Diplomado Full Stack - Freddy Chumacero",
-        docs: "/api-docs",
-        endpoints: {
-            users: "/api/users",
-            tasks: "/api/tasks",
-            login: "/api/login",
-        },
-    });
+    res.send(
+        "Bienvenido a la API del proyecto final de FREDDY CHUMACERO para el diplomado de Node.js. " +
+        "Endpoints: /api/users, /api/tasks, /api/login. " +
+        "Documentación Swagger: /api-docs"
+    );
 });
 
 // Rutas
