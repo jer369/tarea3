@@ -26,7 +26,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 // Ruta raíz
 app.get("/", (req, res) => {
     res.send(
-        "Bienvenido a la API del proyecto final de FREDDY CHUMACERO para el diplomado de Node.js. " +
+        "Bienvenido a la API del proyecto final de JEREZ CRISTHIAN para el diplomado de Node.js. " +
         "Endpoints: /api/users, /api/tasks, /api/login. " +
         "Documentación Swagger: /api-docs"
     );
