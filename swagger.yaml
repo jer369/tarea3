@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: API Diplomado Full Stack - Freddy Chumacero
+  title: API Diplomado Full Stack - JEREZ CRISTHIAN
   version: 1.0.0
   description: Documentación de la API (Swagger + Express) - Proyecto Final Diplomado
 servers:
